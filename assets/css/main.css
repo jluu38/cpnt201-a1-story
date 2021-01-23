@@ -2702,6 +2702,10 @@ input, select, textarea {
 			padding-left: 0.5rem;
 		}
 
+		 ul li a {
+			 margin-left: 5ch;
+		 }
+
 		ul.alt {
 			list-style: none;
 			padding-left: 0;
