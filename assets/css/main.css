@@ -2693,18 +2693,14 @@ input, select, textarea {
 		}
 
 	ul {
-		list-style: disc;
+		list-style: none;
 		margin: 0 0 2rem 0;
-		padding-left: 1rem;
 	}
 
 		ul li {
 			padding-left: 0.5rem;
 		}
 
-		 ul li a {
-			 margin-left: 5ch;
-		 }
 
 		ul.alt {
 			list-style: none;
@@ -2777,9 +2773,12 @@ input, select, textarea {
 			-moz-justify-content: center;
 			-webkit-justify-content: center;
 			-ms-justify-content: center;
-			justify-content: center;
+			justify-content: left;
 			width: 100%;
 			margin-left: 0;
+
+			display: inline-flex;
+			flex-flow: wrap;
 		}
 
 			ul.actions.special li:first-child {
